@@ -104,6 +104,24 @@ data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCom
 data "Boosts" "Ability(Charisma,4);ProficiencyBonus(SavingThrow,Charisma)"
 data "StatusGroups" "SG_RemoveOnRespec"
 
+new entry "GOON_LONE_WOLF_EXTRA_HP"
+type "StatusData" 
+data "StatusType" "BOOST"
+data "DisplayName" "h3f14bfc5g86dag459fga826g4520a0c29b77"
+data "Description" "h9bae2493g4012g4120ga4c4gc255359268fb"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Boosts" "IncreaseMaxHP(30%)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "GOON_LONE_WOLF_EXTRA_DR"
+type "StatusData" 
+data "StatusType" "BOOST"
+data "DisplayName" "h5b028bfagd71dg4c43g9ac3ga96282c009da"
+data "Description" "h086dd109gcbdbg4d36gbf9cg6e402b7d1e92"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Boosts" "DamageReduction(All,Half)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
 // ==================================== Passive selections ====================================
 
 new entry "Goon_Lone_Wolf_Strength"
